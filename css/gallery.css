@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Montserrat';
+}body
+{
+	margin:0;
+	padding: 0;
+	background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../image/view.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+
+
+}
+ul
+{   
+	float: right;
+	list-style-type: none;
+	margin-top: 20px;
+	margin-right: 8px;
+}
+ul li{
+	display: inline-block;
+}
+ul li a
+{
+	text-decoration: none;
+    color:#fff;
+    padding:5px 20px;
+    border:1px solid transparent;
+    transition: 0.4s ease;
+}
+ul li a:hover
+{
+	background-color: #fff;
+	color: #000;
+
+}
+ul li.active a
+{
+background-color: #fff;
+	color: #000;
+
+}
+.logo img
+{
+	float:left;
+	width: 50px;
+	height: 50px;
+     margin-top: 10px;
+     margin-left: 10px;
+}
+.title
+{
+	position: absolute;
+	top:40%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+.title h1
+{
+	color: #fff;
+	font-size: 60px;
+}
+.wrapper
+{
+	margin-top: 0%;
+   color: #ffffff;
+}
+.wrapper h1
+{
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 52px;
+	margin-bottom: 60px;
+	text-align: center;
+
+}
+.slidershow{
+	width: 800px;
+	height: 500px;
+	overflow: hidden;
+
+}
+.middle
+{
+position: absolute;
+top: 70%;
+left: 50%;
+bottom: 30%;
+transform: translate(-50%,-50%);
+
+}
+.navigation
+{
+	position: absolute;
+	bottom: 20px;
+	left: 50%;
+	transform:translate(-50%);
+	display: flex;
+}
+.bar{
+	width: 50px;
+	height: 10px;
+	border:2px solid #fff;
+	margin:6px;
+	cursor: pointer;
+	transition: 0.6s;
+
+}
+.bar:hover{
+	background: #fff;
+
+}
+
+
+input[name="r"]{
+	position: absolute;
+	visibility: hidden;
+
+}
+.slides
+{
+	width: 500%;
+	height: 100%;
+	display: flex;
+
+}
+.slide
+{
+	width: 20%;
+	transition: 0.6s;
+
+}
+.slide img
+{
+	width: 100%;
+	height:100%;
+
+}
+#r1:checked~.s1{
+	margin-left: 0%;
+
+}
+#r2:checked~.s1{
+	margin-left: -20%;
+
+}
+#r3:checked~.s1{
+	margin-left: -40%;
+
+}
+#r4:checked~.s1{
+	margin-left: -60%;
+
+}
+#r5:checked~.s1{
+
+margin-left: -80%;
+}

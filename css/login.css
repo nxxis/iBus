@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300&display=swap');
+*
+{
+	margin:0;
+	padding:0;
+	overflow-x: hidden;
+	overflow-y: hidden;
+	font-family: 'Montserrat';
+}
+
+
+
+body{
+	background: url(../image/view.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+nav{
+	background-color: rgba(0,15,149,0.3);
+}
+
+
+.header
+{
+	background-image:linear-gradient(rgba(0,0,0,0,0),rgba(0,0,0,0,0)),url(../image/view.jpg);
+    background-size: fill;
+    background-position: cover;
+    background-attachment: fixed;
+    color: #fff;
+    padding-top: 100px
+}
+
+.header h1
+{
+	padding-top: 0;
+	padding-bottom: 0;
+	font-size:60px;
+}
+.header p
+{
+	margin: 18px 0;
+
+
+}
+.input-group
+{
+	width:80%;
+	max-width:500px;
+	border-radius: 10px;
+	background: #fff;
+	margin:auto;
+	padding:2px;
+}
+.form-control
+{
+	border:0;
+	border-radius: 30px 0 0 30px;
+	margin:2px;
+	box-shadow: none;
+	width: 500px;
+
+}
+.input-group-text
+{
+	width: 100px;
+	background-image: linear-gradient(#00ff7e,#1f3d90);
+	border:0;
+	color: #fff;
+	padding:0 25px;
+	border-radius:30px;
+	box-shadow:none;
+}
+
+.equal-column-content{
+	margin-top: 60px;
+}
+
+.equal-column-content h2{
+margin-bottom: 3px;
+font-style: 30px;
+color: #fff;
+padding-bottom:10px;
+}
+
+.error{
+color:#b30000;
+text-align: center;
+}
+.idmodal {
+	display: block; /* Hidden by default */
+	position: fixed; /* Stay in place */
+	z-index: 1; /* Sit on top */
+	padding-top: 60px; /* Location of the box */
+	left: 0;
+	top: 0;
+	width: 100%; /* Full width */
+	height: 100%; /* Full height */
+	background-color: rgb(0,0,0); /* Fallback color */
+	background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+  
+  /* Modal Content */
+  .modal-content {
+	background-color: #fefefe;
+	margin-left: 64.55%;
+	padding: 3px;
+	border: 3px solid #000000;
+	width: 5%;
+  }
+  
+  /* The Close Button */
+  .close {
+	color: #aaaaaa;
+	float: right;
+	font-size: 28px;
+	font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+	color: #000;
+	text-decoration: none;
+	cursor: pointer;
+  }
